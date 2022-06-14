@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OlliverSite</title>
+    <link rel="stylesheet" href="bibliotecas/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="bibliotecas/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  const valor = document.getElementById('olliver').value;
+  console.log(valor)
+
+</script>
+
+<body>
+    <div class="container bordas">
+        <div class="row linha">
+          <div class="col-sm-4 offset-sm-4 card bg-light cor p-5">
+            <form action="https://www.youtube.com/watch?v=ku_97a6Bgkg&t=169s">
+                <div class="mb-3">
+                    <label class="form-label"> Usuário</label>
+                    <input type="text" class="form-control" name="" id="">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Senha</label>
+                    <input type="password" class="form-control" name="" id="">
+                    <div class="form-text">A senha deve ser de 6 a 12 caracteres</div>
+                </div>
+                <div class=" mb-3 form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Aceitar os Termos
+                    </label>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="radio" role="switch" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Masculino
+                    </label>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="radio" role="switch" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Femenino
+                    </label>
+                    <label for="customRange3" class="form-label">Example range</label>
+                    <input type="range" class="form-range" min="0" max="100" id="olliver">
+                  </div>
+                <div class="pb-2">
+                    <input type="submit" value="Entrar" class="btn btn-primary">
+                </div>
+
+            </form>
+          </div>
+      </div>
+    
+</body>
+</html>
